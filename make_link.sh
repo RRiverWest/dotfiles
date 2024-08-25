@@ -1,5 +1,5 @@
 #!/bin/bash
 
-ln -s ~/Dotfiles/kitty ~/.config/kitty
-ln -s ~/Dotfiles/nvim ~/.config/nvim 
-# ln -s ~/Dotfiles/alacritty ~/.config/alacritty
+ln -s ~/dotfiles/kitty ~/.config/kitty
+ln -s ~/dotfiles/nvim ~/.config/nvim 
+ln -s ~/dotfiles/alacritty ~/.config/alacritty

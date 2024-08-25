@@ -21,6 +21,10 @@ active_tab_font_style   bold-italic
 inactive_tab_font_style normal
 # tab_bar_background      #fef4f4
 
+#タブの移動
+map kitty_mod+h next_window
+map kitty_mod+h previous_window
+
 # ターミナル背景画像
 background_image ~/.config/kitty/sharotto.png
 background_image_layout tiled
@@ -42,8 +46,8 @@ map kitty_mod+cmd+y scroll_line_up
 map kitty_mod+cmd+e scroll_line_down
 
 # ページごとのスクロール
-map kitty_mod+cmd+k scroll_page_up
-map kitty_mod+cmd+j scroll_page_down
+map kitty_mod+k scroll_page_up
+map kitty_mod+j scroll_page_down
 
 # タブの設定
 map kitty_mod+s set_tab_title
@@ -51,7 +55,7 @@ map kitty_mod+t new_tab
 
 #選択だけでコピー
 copy_on_select yes
-
+#クリップモードにヤンク
 map ctrl+shift+c copy_to_clipboard
 map ctrl+shift+v paste_from_clipboard
 
@@ -59,6 +63,6 @@ map kitty_mod+equal change_font_size all -2.0
 map kitty_mod+semicolon change_font_size all +2.0 
 
 # BEGIN_KITTY_THEME
-# Alabaster Dark
+# Monokai
 include current-theme.conf
 # END_KITTY_THEME
