@@ -5,7 +5,7 @@
 local M = {}
 
 M.ui = {
-	theme = "tokyonight",
+	theme = "kanagawa",
 
 	-- hl_override = {
 	-- 	Comment = { italic = true },
