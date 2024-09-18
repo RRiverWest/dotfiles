@@ -27,7 +27,6 @@ return {
         "prettier",
         "clangd-format",
         "ruff",
-        ""
       },
     },
   },
