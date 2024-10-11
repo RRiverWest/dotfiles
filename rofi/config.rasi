@@ -1,0 +1,6 @@
+configuration {
+ modi: "window,drun,combi";
+ font: "JetBrains Mono 12";
+ combi-modi: "window,drun,ssh";
+ }
+@theme "windows11-grid-light"
