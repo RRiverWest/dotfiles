@@ -12,7 +12,13 @@ output eDP-1 resolution 1920x1080 position 1920 540
 
 workspace 2 output DP-1 
 workspace 1 output eDP-1 
-                   
+
+# touch display setting
+set $touch-display "ELAN2514:00 04F3:2C3F"
+input $touch-display map_to_output eDP-1
+
+# clipbord
+exec wl-paste -t text --watch clipman store --no-persist
 
 ### Idle configuration
 #
