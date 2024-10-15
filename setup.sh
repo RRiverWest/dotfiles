@@ -6,3 +6,6 @@ ln -s ~/dotfiles/alacritty ~/.config/alacritty
 ln -s ~/dotfiles/.zshrc ~/.zshrc
 ln -s ~/dotfiles/sway ~/.config/sway
 ln -s ~/dotfiles/rofi ~/.config/rofi
+
+# make screenshot image directory
+mkdir ~/Images

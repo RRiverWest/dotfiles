@@ -142,3 +142,4 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 bindsym XF86Search exec $menu
 
+bindsym Print exec slurp | grim -g - ~/Images/screenshot.png 
