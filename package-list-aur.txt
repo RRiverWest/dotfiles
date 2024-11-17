@@ -1,0 +1,9 @@
+clipman
+google-chrome
+lightscreen
+linux-wifi-hotspot
+sway-audio-idle-inhibit-git
+vdhcoapp
+web-greeter-theme-shikai
+yay
+yay-debug
