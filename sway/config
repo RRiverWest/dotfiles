@@ -1,8 +1,11 @@
 include ./config.d/*
 set $term kitty 
-set $menu rofi -show combi -show-icons
+# set $menu rofi -show combi -show-icons
 
-### Output configuration
+# multi monitor setting
+set $menu rofi -show combi -show-icons -monitor $(swaymsg -t get_workspaces | jq -e "map(select(.focused == true).num)[0]-(.|length)" | tr -d "-") 
+
+### Output confeguration
 # wallpaper
 output * bg ./f15-wallpaper.jpg fill
 
@@ -58,4 +61,3 @@ bar {
         inactive_workspace #32323200 #32323200 #5c5c5c
     }
 }
-
