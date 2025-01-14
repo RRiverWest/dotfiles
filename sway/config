@@ -3,7 +3,9 @@ set $term kitty
 # set $menu rofi -show combi -show-icons
 
 # multi monitor settingcon
-set $menu rofi -show combi -show-icons -monitor $(swaymsg -t get_workspaces | jq -e "map(select(.focused == true).num)[0]-(.|length)" | tr -d "-") 
+# set $menu rofi -show combi -show-icons -monitor $(swaymsg -t get_workspaces | jq -e "map(select(.focused == true).num)[0]-(.|length)" | tr -d "-") 
+
+set $menu ulauncher
 
 ### Output confeguration
 # wallpaper
@@ -12,7 +14,7 @@ output * bg ./f15-wallpaper.jpg fill
 # display setting
 # You can get the names of your outputs by running: swaymsg -t get_outputs
 
-output HDMI-A-1  resolution 1920x1080 position 0 0
+output DP-1  resolution 1920x1080 position 0 0
 output eDP-1 resolution 1920x1080 position 1921 0
 
 # workspace 2 output DP-1 
@@ -22,8 +24,8 @@ output eDP-1 resolution 1920x1080 position 1921 0
 
 
 set $touch-display "ELAN2514:00 04F3:2C3F"
-# input $touch-display map_to_output eDP-1
-input $touch-display map_to_output "AU Optronics 0xB78F Unknown"
+input $touch-display map_to_output eDP-1
+# input $touch-display map_to_output "AU Optronics 0xB78F Unknown"
 
 # clipbord
 exec wl-paste -t text --watch clipman store --no-persist

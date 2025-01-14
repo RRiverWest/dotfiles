@@ -1,7 +1,11 @@
+chrome-remote-desktop
 clipman
+downgrade
 google-chrome
 lightscreen
 linux-wifi-hotspot
+openrazer-meta-git
+razercfg
 sway-audio-idle-inhibit-git
 vdhcoapp
 web-greeter-theme-shikai
