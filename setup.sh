@@ -9,7 +9,6 @@ ln -s ~/dotfiles/rofi ~/.config/rofi
 
 # neovim setup
 git clone https://github.com/RRiverWest/lazy-nvim-dotfil ~/.config/nvim/
-https://github.com/RRiverWest/lazy-nvim-dotfile
 
 # make screenshot image directory
 mkdir ~/Images
