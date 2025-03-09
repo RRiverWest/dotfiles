@@ -12,3 +12,8 @@ git clone https://github.com/RRiverWest/lazy-nvim-dotfil ~/.config/nvim/
 
 # make screenshot image directory
 mkdir ~/Images
+
+# package install memo
+
+# sudo pacman -S --needed - < ./package-list-extra.txt
+# yay -S --needed - < ./package-list-aur.txt
