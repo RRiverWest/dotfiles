@@ -4,10 +4,12 @@ downgrade
 google-chrome
 lightscreen
 linux-wifi-hotspot
+media-downloader
+mp3gain
 openrazer-meta-git
 razercfg
 sway-audio-idle-inhibit-git
+ulauncher
 vdhcoapp
-web-greeter-theme-shikai
 yay
 yay-debug
