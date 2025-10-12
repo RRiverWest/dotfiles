@@ -8,21 +8,20 @@ set $term kitty
 set $menu ulauncher
 
 ### Output confeguration
+
 # wallpaper
-output * bg ./f15-wallpaper.jpg fill
+output * bg ./hibike.png fill
 
 # display setting
 # You can get the names of your outputs by running: swaymsg -t get_outputs
 
-output DP-1  resolution 1920x1080 position 0 0
-output eDP-1 resolution 1920x1080 position 1921 0
+# output DP-1  resolution 1920x1080 position 0 0
+output eDP-1 resolution 1920x1080 position 0 0
 
 # workspace 2 output DP-1 
 # workspace 1 output eDP-1 
 
 # touch display setting
-
-
 set $touch-display "ELAN2514:00 04F3:2C3F"
 input $touch-display map_to_output eDP-1
 # input $touch-display map_to_output "AU Optronics 0xB78F Unknown"
@@ -30,12 +29,14 @@ input $touch-display map_to_output eDP-1
 # clipbord
 exec wl-paste -t text --watch clipman store --no-persist
 
+# input
+exec fcitx5
 # Enables inhibit_idle when playing audio
 exec sway-audio-idle-inhibit
 
 # Idle configuration
-exec swayidle -w \
-          timeout 300 'systemctl suspend' \
+# exec swayidle -w \
+#           timeout 300 'systemctl suspend' \
 
 #
 # This will lock your screen after 300 seconds of inactivity, then turn off
@@ -49,8 +50,14 @@ input type:touchpad {
 }
 input type:keyboard {
 	# xkb_layout "jp"
-	xkb_layout "us"
+	# xkb_layout "us"
 	xkb_options ctrl:nocaps
+}
+# input "ELECOM ELECOM TrackBall Mouse" {
+# input "1390:396:ELECOM_ELECOM_TrackBall_Mouse" {
+# input "1390:396:ELECOM_ELECOM_TrackBall_Mouse_Consumer_Control" {
+input type:pointer {
+  pointer_accel -0.5
 }
 
 bar {
