@@ -9,7 +9,7 @@ plugins=(
 	command-not-found
 	zsh-syntax-highlighting
 	gh
-	zsh-autocomplete
+	# zsh-autocomplete
 
 # not working
 	# zsh-autosuggestions
