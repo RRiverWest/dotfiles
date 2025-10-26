@@ -20,3 +20,7 @@ mkdir ~/Images
 
 # sudo pacman -S --needed - < ./package-list-extra.txt
 # yay -S --needed - < ./package-list-aur.txt
+
+# save package list to file
+# pacman -Qqen > ./package-list-extra.txt
+# pacman -Qqem > ./package-list-aur.txt
