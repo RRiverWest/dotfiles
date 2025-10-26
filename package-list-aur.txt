@@ -1,3 +1,4 @@
+archlinux-themes-sddm
 chrome-remote-desktop
 clipman
 downgrade
@@ -6,10 +7,10 @@ lightscreen
 linux-wifi-hotspot
 media-downloader
 mp3gain
-openrazer-meta-git
 razercfg
 sway-audio-idle-inhibit-git
 ulauncher
-vdhcoapp
+xf86-video-vmware
+xfce4-i3-workspaces-plugin-git
 yay
 yay-debug
