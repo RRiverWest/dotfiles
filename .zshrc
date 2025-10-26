@@ -15,6 +15,9 @@ plugins=(
 	# zsh-autosuggestions
 )
 
+# zoxide
+eval "$(zoxide init zsh)"
+
 source $ZSH/oh-my-zsh.sh
 
 export PATH=$HOME/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
