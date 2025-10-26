@@ -6,6 +6,9 @@ ln -s ~/dotfiles/alacritty ~/.config/alacritty
 ln -s ~/dotfiles/.zshrc ~/.zshrc
 ln -s ~/dotfiles/sway ~/.config/sway
 ln -s ~/dotfiles/rofi ~/.config/rofi
+ln -s ~/dotfiles/i3 ~/.config/i3
+ln -s ~/dotfiles/xfce4 ~/.config/xfce4 
+ln -s ~/dotfiles/superfile ~/.config/superfile
 
 # neovim setup
 git clone https://github.com/RRiverWest/lazy-nvim-dotfil ~/.config/nvim/
