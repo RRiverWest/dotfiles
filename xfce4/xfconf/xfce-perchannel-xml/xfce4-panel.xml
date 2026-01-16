@@ -70,11 +70,30 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-items" type="array">
+        <value type="string" value="vlc"/>
+        <value type="string" value="redshift"/>
         <value type="string" value="Fcitx"/>
         <value type="string" value="blueman"/>
         <value type="string" value="ulauncher"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “buffalo-g-1238” active: buffalo-g-1238 (57%)"/>
+        <value type="string" value="wi-fi network connection “pixel_1278” active: pixel_1278 (85%)"/>
+        <value type="string" value="wi-fi network connection “pixel_1278” active: pixel_1278 (97%)"/>
+        <value type="string" value="wi-fi network connection “pixel_1278” active: pixel_1278 (75%)"/>
+        <value type="string" value="wi-fi network connection “pixel_1278” active: pixel_1278 (77%)"/>
+        <value type="string" value="wi-fi network connection “pixel_1278” active: pixel_1278 (100%)"/>
+        <value type="string" value="wi-fi network connection “pixel_1278” active: pixel_1278 (83%)"/>
+        <value type="string" value="wi-fi network connection “pixel_1278” active: pixel_1278 (98%)"/>
+        <value type="string" value="wi-fi network connection “pixel_1278” active: pixel_1278 (59%)"/>
+        <value type="string" value="wi-fi network connection “pixel_1278” active: pixel_1278 (90%)"/>
+        <value type="string" value="clipman"/>
+        <value type="string" value="wi-fi network connection “pixel_1278” active: pixel_1278 (99%)"/>
+        <value type="string" value="wi-fi network connection “pixel_1278” active: pixel_1278 (76%)"/>
+        <value type="string" value="wi-fi network connection “pixel_1278” active: pixel_1278 (87%)"/>
+        <value type="string" value="wi-fi network connection “pixel_1278” active: pixel_1278 (66%)"/>
+        <value type="string" value="wi-fi network connection “pixel_1278” active: pixel_1278 (93%)"/>
+        <value type="string" value="networkmanager applet"/>
         <value type="string" value="requesting an ethernet network address for “pixel-wired”…"/>
         <value type="string" value="ethernet network connection “nnct-wired” active&#xA;vpn connection active"/>
         <value type="string" value="ethernet network connection “pixel-wired” active"/>
@@ -87,7 +106,7 @@
     <property name="plugin-20" type="string" value="wavelan"/>
     <property name="plugin-21" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="known-players" type="string" value="firefox;spotify"/>
+      <property name="known-players" type="string" value="Chrome;firefox;smplayer;spotify;vlc"/>
     </property>
     <property name="plugin-22" type="string" value="netload"/>
     <property name="plugin-23" type="string" value="i3-workspaces"/>

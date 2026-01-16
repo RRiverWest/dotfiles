@@ -5,7 +5,29 @@
     <property name="Properties" type="empty">
       <property name="libinput_Disable_While_Typing_Enabled" type="int" value="1"/>
       <property name="libinput_Click_Method_Enabled" type="array">
+        <value type="int" value="0"/>
         <value type="int" value="1"/>
+      </property>
+      <property name="libinput_Accel_Profile_Enabled" type="array">
+        <value type="int" value="0"/>
+        <value type="int" value="1"/>
+        <value type="int" value="0"/>
+      </property>
+      <property name="libinput_Tapping_Enabled" type="int" value="1"/>
+      <property name="Synaptics_Edge_Scrolling" type="array">
+        <value type="int" value="0"/>
+        <value type="int" value="0"/>
+        <value type="int" value="0"/>
+      </property>
+      <property name="Synaptics_Two-Finger_Scrolling" type="array">
+        <value type="int" value="1"/>
+        <value type="int" value="0"/>
+      </property>
+      <property name="Synaptics_Circular_Scrolling" type="int" value="0"/>
+      <property name="Synaptics_Circular_Scrolling_Trigger" type="int" value="0"/>
+      <property name="libinput_Scroll_Method_Enabled" type="array">
+        <value type="int" value="1"/>
+        <value type="int" value="0"/>
         <value type="int" value="0"/>
       </property>
     </property>
@@ -13,5 +35,24 @@
     <property name="ReverseScrolling" type="bool" value="true"/>
     <property name="Threshold" type="int" value="1"/>
     <property name="Acceleration" type="double" value="5"/>
+  </property>
+  <property name="SYNA32AA00_06CBCE17_Mouse" type="empty">
+    <property name="Properties" type="empty">
+      <property name="libinput_High_Resolution_Wheel_Scroll_Enabled" type="int" value="1"/>
+      <property name="libinput_Accel_Profile_Enabled" type="array">
+        <value type="int" value="1"/>
+        <value type="int" value="0"/>
+        <value type="int" value="0"/>
+      </property>
+    </property>
+    <property name="RightHanded" type="bool" value="true"/>
+    <property name="ReverseScrolling" type="bool" value="false"/>
+    <property name="Threshold" type="int" value="1"/>
+    <property name="Acceleration" type="double" value="5"/>
+  </property>
+  <property name="ELECOM_ELECOM_TrackBall_Mouse" type="empty">
+    <property name="RightHanded" type="bool" value="true"/>
+    <property name="Threshold" type="int" value="1"/>
+    <property name="Acceleration" type="double" value="0.90000000000000002"/>
   </property>
 </channel>
