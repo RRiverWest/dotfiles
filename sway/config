@@ -5,7 +5,8 @@ set $term kitty
 # multi monitor settingcon
 # set $menu rofi -show combi -show-icons -monitor $(swaymsg -t get_workspaces | jq -e "map(select(.focused == true).num)[0]-(.|length)" | tr -d "-") 
 
-set $menu ulauncher
+# set $menu ulauncher
+set $menu rofi -show combi -show-icons
 
 ### Output confeguration
 
@@ -29,19 +30,13 @@ input $touch-display map_to_output eDP-1
 # clipbord
 exec wl-paste -t text --watch clipman store --no-persist
 
-# input
 exec fcitx5
-# Enables inhibit_idle when playing audio
 exec sway-audio-idle-inhibit
+exec wlsunset -g -0.9
 
 # Idle configuration
 # exec swayidle -w \
 #           timeout 300 'systemctl suspend' \
-
-#
-# This will lock your screen after 300 seconds of inactivity, then turn off
-# your displays after another 300 seconds, and turn your screens back on when
-# resumed. It will also lock your screen before your computer goes to sleep.
 
 # Input configuration
 input type:touchpad {
