@@ -9,9 +9,10 @@ ln -s ~/dotfiles/rofi ~/.config/rofi
 ln -s ~/dotfiles/i3 ~/.config/i3
 ln -s ~/dotfiles/xfce4 ~/.config/xfce4 
 ln -s ~/dotfiles/superfile ~/.config/superfile
+ln -s ~/dotfiles/fuzzel ~/.config/fuzzel
 
 # neovim setup
-git clone https://github.com/RRiverWest/lazy-nvim-dotfil ~/.config/nvim/
+# git clone https://github.com/RRiverWest/lazy-nvim-dotfil ~/.config/nvim/
 
 # make screenshot image directory
 mkdir ~/Images
