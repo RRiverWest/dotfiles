@@ -1,12 +1,6 @@
 include ./config.d/*
 set $term kitty 
-# set $menu rofi -show combi -show-icons
-
-# multi monitor settingcon
-# set $menu rofi -show combi -show-icons -monitor $(swaymsg -t get_workspaces | jq -e "map(select(.focused == true).num)[0]-(.|length)" | tr -d "-") 
-
-# set $menu ulauncher
-set $menu rofi -show combi -show-icons
+set $menu fuzzel
 
 ### Output confeguration
 
@@ -32,7 +26,7 @@ exec wl-paste -t text --watch clipman store --no-persist
 
 exec fcitx5
 exec sway-audio-idle-inhibit
-exec wlsunset -g -0.9
+exec wlsunset -g 0.9
 
 # Idle configuration
 # exec swayidle -w \
