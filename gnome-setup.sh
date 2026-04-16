@@ -40,4 +40,13 @@ gsettings set org.gnome.settings-daemon.plugins.color night-light-schedule-autom
 gsettings set org.gnome.settings-daemon.plugins.color night-light-schedule-to 0 
 gsettings set org.gnome.settings-daemon.plugins.color night-light-schedule-from 0
 
+gsettings set org.gnome.desktop.wm.keybindings toggle-fullscreen "['<Super>f']"
+gsettings set org.gnome.desktop.wm.keybindings toggle-maximized "['<Super>m']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-last "['<Super><Shift>m']"
 
+gsettings set org.gnome.shell.keybindings toggle-application-view "[]"
+
+gsettings set org.gnome.shell enabled-extensions "['space-bar@luchrioh', 'night-light-slider-updated@vilsbeg.codeberg.org', 'pop-shell@system76.com']"
+gsettings set org.gnome.desktop.wm.keybindings close "['<Super><Shift>q']"
+
+gsettings set org.gnome.shell.keybindings toggle-quick-settings "[]" 
