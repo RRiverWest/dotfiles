@@ -1,7 +1,9 @@
 alacritty
+alsa-utils
 amd-ucode
 android-file-transfer
 arch-install-scripts
+archinstall
 arduino-cli
 arp-scan
 awesome-terminal-fonts
@@ -34,7 +36,6 @@ dolphin
 dosfstools
 dunst
 efibootmgr
-epiphany
 ex-vi-compat
 exfatprogs
 exo
@@ -65,22 +66,17 @@ git
 github-cli
 glab
 gmtp
-gnome-calculator
-gnome-calendar
 gnome-characters
 gnome-clocks
 gnome-color-manager
 gnome-connections
 gnome-console
-gnome-contacts
 gnome-control-center
 gnome-disk-utility
 gnome-font-viewer
 gnome-keyring
 gnome-logs
-gnome-maps
 gnome-menus
-gnome-music
 gnome-remote-desktop
 gnome-session
 gnome-settings-daemon
@@ -88,11 +84,9 @@ gnome-shell
 gnome-software
 gnome-system-monitor
 gnome-text-editor
-gnome-tour
 gnome-tweaks
 gnome-user-docs
 gnome-user-share
-gnome-weather
 gptfdisk
 grilo-plugins
 grim
@@ -101,7 +95,6 @@ gvfs
 gvfs-afc
 gvfs-dnssd
 gvfs-goa
-gvfs-google
 gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
@@ -131,6 +124,7 @@ lightdm-gtk-greeter
 lightdm-webkit2-greeter
 linux
 linux-firmware
+linux-headers
 linux-lts
 linux-zen
 loupe
@@ -171,6 +165,7 @@ pipewire-pulse
 pkgfile
 platformio-core
 polkit-kde-agent
+progress
 python-pip
 qt5-wayland
 qt6-3d
@@ -245,6 +240,8 @@ typescript-language-server
 unzip
 usbutils
 vim
+virtualbox
+virtualbox-host-modules-arch
 vlc
 vlc-plugin-x264
 vlc-plugin-x265
@@ -275,7 +272,6 @@ xf86-video-ati
 xf86-video-nouveau
 xfburn
 xfce4-appfinder
-xfce4-artwork
 xfce4-battery-plugin
 xfce4-clipman-plugin
 xfce4-cpufreq-plugin
@@ -314,7 +310,6 @@ xfce4-xkb-plugin
 xfconf
 xfdesktop
 xfwm4
-xfwm4-themes
 xorg-xev
 xorg-xwayland
 xss-lock
