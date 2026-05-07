@@ -34,6 +34,7 @@ gsettings set org.gnome.desktop.wm.keybindings switch-input-source-backward "[]"
 gsettings set org.gnome.desktop.wm.keybindings switch-group-backward "[]"
 gsettings set org.gnome.desktop.wm.keybindings switch-panels "[]"
 gsettings set org.gnome.desktop.wm.keybindings switch-panels-backward "[]"
+gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-last "['<Super><Shift>n']"
 
 gsettings set org.gnome.settings-daemon.plugins.color night-light-enabled true
 gsettings set org.gnome.settings-daemon.plugins.color night-light-schedule-automatic false
