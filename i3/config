@@ -67,8 +67,8 @@ set $right l
 # use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
-# set $menu rofi -show combi -show-icons
-set $menu ulauncher
+set $menu rofi -show combi -show-icons
+# set $menu ulauncher
 # move tiling windows via drag & drop by left-clicking into the title bar,
 # or left-clicking anywhere into the window while holding the floating modifier.
 tiling_drag modifier titlebar
