@@ -1,0 +1,201 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      // "shift shift": "file_finder::Toggle"
+    },
+  },
+  {
+    "context": "Editor && vim_mode == insert",
+    "bindings": {
+      // "j k": "vim::NormalBefore"
+    },
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "new": null
+    }
+  },
+  {
+    "context": "ProjectPanel",
+    "bindings": {
+      "n": "project_panel::NewFile"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-n": null
+    }
+  },
+  {
+    "context": "(ProjectPanel && not_editing)",
+    "bindings": {
+      "%": null
+    }
+  },
+  {
+    "context": "ProjectPanel",
+    "bindings": {
+      "ctrl-n": null
+    }
+  },
+  {
+    "context": "ProjectPanel",
+    "bindings": {
+      "new": null
+    }
+  },
+  {
+    "context": "((VimControl && !menu) || (!Editor && !Terminal))",
+    "bindings": {
+      "ctrl-w l": null
+    }
+  },
+  {
+    "context": "((VimControl && !menu) || (!Editor && !Terminal))",
+    "bindings": {
+      "ctrl-w ctrl-l": null
+    }
+  },
+  {
+    "context": "((VimControl && !menu) || (!Editor && !Terminal))",
+    "bindings": {
+      "ctrl-w right": null
+    }
+  },
+  {
+    "context": "((vim_mode == helix_normal || vim_mode == helix_select) && !menu)",
+    "bindings": {
+      "space w l": null
+    }
+  },
+  {
+    "context": "Workspace&&!menu",
+    "bindings": {
+      "ctrl-l": "workspace::ActivatePaneRight"
+    }
+  },
+  {
+    "context": "(Editor && mode == full)",
+    "bindings": {
+      "ctrl-h": null
+    }
+  },
+  {
+    "context": "Workspace&&!menu",
+    "bindings": {
+      "ctrl-h": "workspace::ActivatePaneLeft"
+    }
+  },
+  {
+    "context": "BufferSearchBar",
+    "bindings": {
+      "ctrl-h": null
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-k ctrl-right": null
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-l": null
+    }
+  },
+  {
+    "context": "((vim_mode == helix_normal || vim_mode == helix_select) && !menu)",
+    "bindings": {
+      "shift-x": null
+    }
+  },
+  {
+    "context": "((vim_mode == helix_normal || vim_mode == helix_select) && !menu)",
+    "bindings": {
+      "x": null
+    }
+  },
+  {
+    "context": "((VimControl && !menu) || (!Editor && !Terminal))",
+    "bindings": {
+      "ctrl-w h": null
+    }
+  },
+  {
+    "context": "((VimControl && !menu) || (!Editor && !Terminal))",
+    "bindings": {
+      "ctrl-w ctrl-h": null
+    }
+  },
+  {
+    "context": "((VimControl && !menu) || (!Editor && !Terminal))",
+    "bindings": {
+      "ctrl-w left": null
+    }
+  },
+  {
+    "context": "((vim_mode == helix_normal || vim_mode == helix_select) && !menu)",
+    "bindings": {
+      "space w h": null
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-k ctrl-left": null
+    }
+  },
+  {
+    "context": "Picker > Editor",
+    "bindings": {
+      "ctrl-h": null
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "shift-backspace": null
+    }
+  },
+  {
+    "context": "Editor&&vim_mode==insert&&!menu",
+    "bindings": {
+      "ctrl-h": "editor::MoveLeft"
+    }
+  },
+  {
+    "context": "Editor&&vim_mode==normal&&!menu",
+    "bindings": {
+      "ctrl-h": "workspace::ActivatePaneLeft"
+    }
+  },
+  {
+    "context": "editor&&vim_mode==normal&&!menu",
+    "bindings": {
+      "ctrl-l": "workspace::ActivatePaneRight"
+    }
+  },
+  {
+    "context": "(VimControl && !menu)",
+    "bindings": {
+      "h": null
+    }
+  },
+  {
+    "context": "(editor && (vim_mode == normal || vim_mode == visual)) &&!menu",
+    "bindings": {
+      "h": "vim::Left"
+    }
+  }
+]

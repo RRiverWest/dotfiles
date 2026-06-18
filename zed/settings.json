@@ -1,0 +1,59 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "restore_on_startup": "empty_tab",
+  "project_panel": {
+    "hide_hidden": false
+  },
+  "languages": {
+    "TSX": {
+      "inlay_hints": {
+        "enabled": true
+      }
+    },
+    "C": {
+      "inlay_hints": {
+        "enabled": true
+      }
+    }
+  },
+  "diagnostics": {
+    "inline": {
+      "enabled": true
+    }
+  },
+  "semantic_tokens": "off",
+  "document_symbols": "off",
+  "document_folding_ranges": "off",
+  "format_on_save": "off",
+  "vim": {
+    "cursor_shape": {
+      "visual": "hollow",
+    },
+    "toggle_relative_line_numbers": true,
+  },
+  "minimap": {
+    "show": "never",
+  },
+  "autoscroll_on_clicks": false,
+  "base_keymap": "SublimeText",
+  "auto_update": false,
+  "ui_font_family": "JetBrainsMono Nerd Font",
+  "agent_buffer_font_size": 18.0,
+  "buffer_font_weight": 400.0,
+  "on_last_window_closed": "quit_app",
+  "when_closing_with_no_tabs": "platform_default",
+  "agent_ui_font_size": 18.0,
+  "buffer_font_family": "JetBrains Mono",
+  "vim_mode": true,
+  "icon_theme": "Material Icon Theme",
+  "ui_font_size": 18.0,
+  "buffer_font_size": 18.0,
+  "theme": "Dracula",
+}
