@@ -15,7 +15,7 @@
   {
     "context": "Editor && vim_mode == insert",
     "bindings": {
-      // "j k": "vim::NormalBefore"
+       "j k": "vim::NormalBefore"
     },
   },
   {
@@ -31,21 +31,9 @@
     }
   },
   {
-    "context": "Workspace",
-    "bindings": {
-      "ctrl-n": null
-    }
-  },
-  {
     "context": "(ProjectPanel && not_editing)",
     "bindings": {
       "%": null
-    }
-  },
-  {
-    "context": "ProjectPanel",
-    "bindings": {
-      "ctrl-n": null
     }
   },
   {
@@ -76,12 +64,6 @@
     "context": "((vim_mode == helix_normal || vim_mode == helix_select) && !menu)",
     "bindings": {
       "space w l": null
-    }
-  },
-  {
-    "context": "Workspace&&!menu",
-    "bindings": {
-      "ctrl-l": "workspace::ActivatePaneRight"
     }
   },
   {
@@ -181,12 +163,6 @@
     }
   },
   {
-    "context": "editor&&vim_mode==normal&&!menu",
-    "bindings": {
-      "ctrl-l": "workspace::ActivatePaneRight"
-    }
-  },
-  {
     "context": "(VimControl && !menu)",
     "bindings": {
       "h": null
@@ -196,6 +172,176 @@
     "context": "(editor && (vim_mode == normal || vim_mode == visual)) &&!menu",
     "bindings": {
       "h": "vim::Left"
+    }
+  },
+  {
+    "context": "Editor&&(vim_mode==insert)&&!menu",
+    "bindings": {
+      "ctrl-l": "vim::Right"
+    }
+  },
+  {
+    "context": "Editor&&vim_mode==insert&&!menu",
+    "bindings": {
+      "ctrl-k": "vim::Up"
+    }
+  },
+  {
+    "context": "VimControl && vim_mode == helix_normal && !menu && !BufferSearchBar",
+    "unbind": {
+      "g up": "vim::Up"
+    }
+  },
+  {
+    "context": "Editor&&vim_mode==insert&&!menu",
+    "bindings": {
+      "ctrl-j": "vim::Down"
+    }
+  },
+  {
+    "context": "VimControl && vim_mode == helix_normal && !menu && !BufferSearchBar",
+    "unbind": {
+      "g down": "vim::Down"
+    }
+  },
+  {
+    "context": "VimControl && !menu",
+    "bindings": {
+      "h": "vim::Left"
+    }
+  },
+  {
+    "context": "VimControl && !menu",
+    "bindings": {
+      "space f": "file_finder::Toggle"
+    }
+  },
+  {
+    "context": "VimControl&&!menu",
+    "bindings": {
+      "ctrl-j": "workspace::ActivatePaneDown"
+    }
+  },
+  {
+    "context": "Workspace",
+    "unbind": {
+      "ctrl-j": "workspace::ToggleBottomDock"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-j": "workspace::ActivatePaneDown"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-k": "workspace::ActivatePaneUp"
+    }
+  },
+  {
+    "context": "!Editor && !Terminal",
+    "unbind": {
+      "space w l": "workspace::ActivatePaneRight"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-h": "workspace::ActivatePaneLeft"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-l": "workspace::ActivatePaneRight"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-shift-h": "workspace::ToggleLeftDock"
+    }
+  },
+  {
+    "context": "Workspace",
+    "unbind": {
+      "ctrl-k ctrl-b": "workspace::ToggleLeftDock"
+    }
+  },
+  {
+    "context": "ProjectPanel",
+    "unbind": {
+      "ctrl-n": "project_panel::NewFile"
+    }
+  },
+  {
+    "context": "Workspace",
+    "unbind": {
+      "ctrl-shift-h": [
+        "pane::DeploySearch",
+        {
+          "replace_enabled": true
+        }
+      ]
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-shift-l": "workspace::ToggleRightDock"
+    }
+  },
+  {
+    "context": "ProjectPanel",
+    "bindings": {
+      "d": "project_panel::Delete"
+    }
+  },
+  {
+    "context": "ProjectPanel && not_editing",
+    "unbind": {
+      "shift-d": "project_panel::Delete"
+    }
+  },
+  {
+    "context": "ProjectPanel",
+    "unbind": {
+      "ctrl-delete": [
+        "project_panel::Delete",
+        {
+          "skip_prompt": false
+        }
+      ]
+    }
+  },
+  {
+    "context": "ProjectPanel",
+    "unbind": {
+      "ctrl-backspace": [
+        "project_panel::Delete",
+        {
+          "skip_prompt": false
+        }
+      ]
+    }
+  },
+  {
+    "context": "ProjectPanel",
+    "unbind": {
+      "shift-delete": [
+        "project_panel::Delete",
+        {
+          "skip_prompt": false
+        }
+      ]
+    }
+  },
+  {
+    "context": "ProjectPanel && not_editing",
+    "unbind": {
+      "d": "project_panel::NewDirectory"
     }
   }
 ]

@@ -7,8 +7,15 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "proxy": "",
+  "git_panel": {
+    "file_icons": true
+  },
   "restore_on_startup": "empty_tab",
   "project_panel": {
+    "drag_and_drop": false,
+    "git_status": true,
+    "dock": "left",
     "hide_hidden": false
   },
   "languages": {
@@ -48,7 +55,7 @@
   "agent_buffer_font_size": 18.0,
   "buffer_font_weight": 400.0,
   "on_last_window_closed": "quit_app",
-  "when_closing_with_no_tabs": "platform_default",
+  "when_closing_with_no_tabs": "close_window",
   "agent_ui_font_size": 18.0,
   "buffer_font_family": "JetBrains Mono",
   "vim_mode": true,
