@@ -13,7 +13,7 @@
     },
   },
   {
-    "context": "Editor && vim_mode == insert",
+    "context": "vim_mode==insert",
     "bindings": {
        "j k": "vim::NormalBefore"
     },
@@ -67,13 +67,7 @@
     }
   },
   {
-    "context": "(Editor && mode == full)",
-    "bindings": {
-      "ctrl-h": null
-    }
-  },
-  {
-    "context": "Workspace&&!menu",
+    "context": "VimControl || Dock",
     "bindings": {
       "ctrl-h": "workspace::ActivatePaneLeft"
     }
@@ -157,12 +151,6 @@
     }
   },
   {
-    "context": "Editor&&vim_mode==normal&&!menu",
-    "bindings": {
-      "ctrl-h": "workspace::ActivatePaneLeft"
-    }
-  },
-  {
     "context": "(VimControl && !menu)",
     "bindings": {
       "h": null
@@ -229,13 +217,13 @@
     }
   },
   {
-    "context": "Workspace",
+    "context": "VimControl || Dock",
     "bindings": {
       "ctrl-j": "workspace::ActivatePaneDown"
     }
   },
   {
-    "context": "Workspace",
+    "context": "VimControl || Dock",
     "bindings": {
       "ctrl-k": "workspace::ActivatePaneUp"
     }
@@ -247,13 +235,7 @@
     }
   },
   {
-    "context": "Workspace",
-    "bindings": {
-      "ctrl-h": "workspace::ActivatePaneLeft"
-    }
-  },
-  {
-    "context": "Workspace",
+    "context": "VimControl || Dock",
     "bindings": {
       "ctrl-l": "workspace::ActivatePaneRight"
     }
@@ -342,6 +324,12 @@
     "context": "ProjectPanel && not_editing",
     "unbind": {
       "d": "project_panel::NewDirectory"
+    }
+  },
+  {
+    "context": "Editor && mode == full",
+    "unbind": {
+      "ctrl-h": "buffer_search::DeployReplace"
     }
   }
 ]
