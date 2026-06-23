@@ -5,8 +5,21 @@
 //
 // To see all of Zed's default settings without changing your
 // custom settings, run `zed: open default settings` from the
-// command palette (cmd-shift-p / ctrl-shift-p)
+//
 {
+  "gutter": {
+    "min_line_number_digits": 0
+  },
+  "expand_excerpt_lines": 4,
+  "buffer_line_height": "comfortable",
+  "agent_servers": {
+    "Kiro Agent": {
+      "type": "custom",
+      "command": "kiro-cli",
+      "args": ["acp"],
+      "env": {},
+    },
+  },
   "cli_default_open_behavior": "existing_window",
   "session": {
     "trust_all_worktrees": false

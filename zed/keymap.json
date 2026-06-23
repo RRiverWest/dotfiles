@@ -343,5 +343,29 @@
     "unbind": {
       "ctrl-shift-j": "editor::JoinLines"
     }
+  },
+  {
+    "context": "AcpThread",
+    "bindings": {
+      "alt-k": "agent::ScrollOutputLineUp"
+    }
+  },
+  {
+    "context": "AcpThread",
+    "bindings": {
+      "alt-j": "agent::ScrollOutputLineDown"
+    }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "alt-k": "terminal::ScrollLineUp"
+    }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "alt-j": "terminal::ScrollLineDown"
+    }
   }
 ]
