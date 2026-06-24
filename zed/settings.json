@@ -17,8 +17,8 @@
       "type": "custom",
       "command": "kiro-cli",
       "args": ["acp"],
-      "env": {},
-    },
+      "env": {}
+    }
   },
   "cli_default_open_behavior": "existing_window",
   "session": {
@@ -32,6 +32,10 @@
   },
   "agent": {
     "dock": "right",
+    "default_model": {
+      "provider": "agent_server::Kiro Agent",
+      "model": "kiro-default"
+    },
     "favorite_models": [],
     "model_parameters": []
   },
