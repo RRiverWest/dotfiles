@@ -7,6 +7,10 @@
 // custom settings, run `zed: open default settings` from the
 //
 {
+  "which_key": {
+    "delay_ms": 0,
+    "enabled": true
+  },
   "gutter": {
     "min_line_number_digits": 0
   },
