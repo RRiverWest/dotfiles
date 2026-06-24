@@ -367,5 +367,11 @@
     "bindings": {
       "alt-j": "terminal::ScrollLineDown"
     }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-h": "workspace::ActivatePaneLeft"
+    }
   }
 ]
