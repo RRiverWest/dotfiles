@@ -373,5 +373,11 @@
     "bindings": {
       "ctrl-h": "workspace::ActivatePaneLeft"
     }
+  },
+  {
+    "context": "Editor && vim_mode==normal",
+    "bindings": {
+      "g f": "editor::Format"
+    }
   }
 ]
