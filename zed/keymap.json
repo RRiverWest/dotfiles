@@ -25,7 +25,7 @@
     }
   },
   {
-    "context": "ProjectPanel",
+    "context": "ProjectPanel && not_editing",
     "bindings": {
       "n": "project_panel::NewFile"
     }
@@ -276,7 +276,7 @@
     }
   },
   {
-    "context": "ProjectPanel",
+    "context": "ProjectPanel&&not_editing",
     "bindings": {
       "d": "project_panel::Delete"
     }
@@ -378,6 +378,36 @@
     "context": "Editor && vim_mode==normal",
     "bindings": {
       "g f": "editor::Format"
+    }
+  },
+  {
+    "context": "ProjectPanel&&not_editing",
+    "bindings": {
+      "r": "project_panel::Rename"
+    }
+  },
+  {
+    "context": "AcpThread > Editor && vim_mode != insert",
+    "bindings": {
+      "space o": "agent::AllowOnce"
+    }
+  },
+  {
+    "context": "AcpThread",
+    "unbind": {
+      "alt-shift-a": "agent::AllowOnce"
+    }
+  },
+  {
+    "context": "AcpThread >Editor && vim_mode == normal",
+    "bindings": {
+      "space a": "agent::AllowAlways"
+    }
+  },
+  {
+    "context": "AcpThread",
+    "unbind": {
+      "alt-shift-q": "agent::AllowAlways"
     }
   }
 ]
