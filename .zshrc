@@ -26,3 +26,9 @@ export PATH=$PATH:$HOME/dotnet/
 
 alias zd='zeditor .'
 alias zn='zeditor . -n'
+
+export ANDROID_HOME=$HOME/Android/Sdk
+export ANDROID_SDK_ROOT=$ANDROID_HOME
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin
