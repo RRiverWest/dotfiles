@@ -7,6 +7,20 @@
 // custom settings, run `zed: open default settings` from the
 //
 {
+  "auto_install_extensions": {
+    "html": true,
+    "dockerfile": true,
+    "docker-compose": true,
+    "lua": true,
+    "material-icon-theme": true,
+    "dracula": true,
+    "kanagawa-themes": true,
+    "path-server-lsp": true,
+    "color-highlight": true,
+  },
+
+  "lsp_document_colors": "background",
+
   "soft_wrap": "editor_width",
   "lsp": {
     "mdx-analyzer": {
@@ -24,13 +38,7 @@
             "onSave": true,
             "forwardSearchAfter": true,
             "executable": "latexmk",
-            "args": [
-              "-pdf",
-              "-c",
-              "-shell-escape",
-              "-f",
-              "-pdflua"
-            ]
+            "args": ["-pdf", "-c", "-shell-escape", "-f", "-pdflua"],
           },
           "forwardSearch": {
             "executable": "zathura",
