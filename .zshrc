@@ -26,6 +26,7 @@ export PATH=$PATH:$HOME/dotnet/
 
 alias zd='zeditor .'
 alias zn='zeditor . -n'
+alias cuif='curl ifconfig.io'
 
 export ANDROID_HOME=$HOME/Android/Sdk
 export ANDROID_SDK_ROOT=$ANDROID_HOME
