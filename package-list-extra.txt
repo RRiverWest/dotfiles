@@ -254,7 +254,6 @@ ristretto
 rofi
 rpi-imager
 rsync
-rust-analyzer
 rustup
 rygel
 sbctl
