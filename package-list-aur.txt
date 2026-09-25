@@ -20,4 +20,3 @@ xfce4-artwork
 xfce4-i3-workspaces-plugin-git
 xfwm4-themes
 yay
-yt-dlp-gui
