@@ -30,26 +30,30 @@
         },
       },
     },
+    "ltex": {
+      "settings": {
+        "ltex": {
+          "language": "auto",
+        },
+      },
+    },
     "texlab": {
       "settings": {
         "texlab": {
-          // ...
           "build": {
             "onSave": true,
-            "forwardSearchAfter": true,
-            "executable": "latexmk",
-            "args": ["-pdf", "-c", "-shell-escape", "-f", "-pdflua"],
+            "forwardSearchAfter": false,
           },
-          "forwardSearch": {
-            "executable": "zathura",
-            "args": [
-              "--synctex-forward",
-              "%l:1:%f",
-              "-x",
-              "zed %%{input}:%%{line}",
-              "%p",
-            ],
-          },
+          // "forwardSearch": {
+          //   "executable": "zathura",
+          //   "args": [
+          //     "--synctex-forward",
+          //     "%l:1:%f",
+          //     "-x",
+          //     "zed %%{input}:%%{line}",
+          //     "%p",
+          //   ],
+          // },
         },
       },
     },
@@ -71,7 +75,7 @@
       "env": {},
     },
   },
-  "cli_default_open_behavior": "existing_window",
+  "cli_default_open_behavior": "new_window",
   "session": {
     "trust_all_worktrees": false,
   },
@@ -112,6 +116,9 @@
       "inlay_hints": {
         "enabled": true,
       },
+    },
+    "LaTeX": {
+      "language_servers": ["texlab"],
     },
   },
   "diagnostics": {
