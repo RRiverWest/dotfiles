@@ -7,6 +7,9 @@
 // custom settings, run `zed: open default settings` from the
 //
 {
+  "inlay_hints": {
+    "enabled": false
+  },
   "auto_install_extensions": {
     "html": true,
     "dockerfile": true,
@@ -23,6 +26,21 @@
 
   "soft_wrap": "editor_width",
   "lsp": {
+    "vtsls": {
+      "settings": {
+        "typescript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        },
+        "javascript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        }
+      },
+      "enable_lsp_tasks": true
+    },
     "mdx-analyzer": {
       "initialization_options": {
         "typescript": {
@@ -108,9 +126,7 @@
   },
   "languages": {
     "TSX": {
-      "inlay_hints": {
-        "enabled": true,
-      },
+      "tab_size": 4,
     },
     "C": {
       "inlay_hints": {
