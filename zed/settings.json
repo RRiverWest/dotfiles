@@ -104,7 +104,7 @@
     "drag_and_drop": false,
     "git_status": true,
     "dock": "left",
-    "hide_hidden": false,
+    "hide_hidden": true,
   },
   "languages": {
     "TSX": {
