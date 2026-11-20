@@ -5,7 +5,6 @@ android-file-transfer
 android-tools
 arch-install-scripts
 archinstall
-arduino-cli
 arp-scan
 awesome-terminal-fonts
 aws-cli-v2
@@ -37,6 +36,7 @@ cosmic-launcher
 cosmic-monitor
 cosmic-notifications
 cosmic-osd
+cosmic-osk
 cosmic-panel
 cosmic-player
 cosmic-randr
@@ -47,11 +47,13 @@ cosmic-settings-daemon
 cosmic-store
 cosmic-terminal
 cosmic-text-editor
+cosmic-viewer
 cosmic-wallpapers
 cosmic-workspaces
 cppcheck
 cronie
 dconf-editor
+ddcui
 ddcutil
 decibels
 dfu-util
@@ -92,6 +94,7 @@ gammastep
 garcon
 gdm
 geckodriver
+geeqie
 ghostscript
 ghq
 gimp
@@ -173,6 +176,7 @@ linux-zen
 loupe
 lua-language-server
 luarocks
+ly
 mako
 malcontent
 mousepad
@@ -195,6 +199,7 @@ noto-fonts-cjk
 npm
 nss-mdns
 ntp
+obs-studio
 openresolv
 orca
 otf-font-awesome
@@ -248,6 +253,7 @@ qt6-webchannel
 qt6-webengine
 qt6-websockets
 qt6-webview
+rawtherapee
 redshift
 reflector
 ristretto
@@ -259,7 +265,6 @@ rygel
 sbctl
 scrcpy
 screen
-sddm
 shotcut
 showtime
 simple-scan
@@ -277,6 +282,7 @@ sway
 swaybg
 swayidle
 swaylock
+tcpdump
 tecla
 texlab
 texlive-basic
@@ -335,8 +341,6 @@ ufw
 unzip
 usbutils
 vim
-virtualbox
-virtualbox-host-modules-arch
 vlc
 vlc-plugin-x264
 vlc-plugin-x265
@@ -348,6 +352,7 @@ waybar
 waydroid
 wf-recorder
 wget
+wireguard-tools
 wireless-regdb
 wireless_tools
 wiremix
